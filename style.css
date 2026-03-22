@@ -5,10 +5,10 @@
 }
 
 body {
-  font-size: 16px;
-  line-height: 1.5;
   color: #333;
-  background: linen;
+  background-color: linen;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 ul {
@@ -18,7 +18,7 @@ ul {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0px 30px;
 }
 
 .main {
@@ -28,7 +28,7 @@ ul {
 
 .navbar {
   background-color: black;
-  color: #fff;
+  color: white;
   height: 60px;
 }
 
@@ -49,36 +49,34 @@ ul {
   margin-left: 20px;
 }
 
-.navbar .logo {
-  font-size: x-large;
-  font-weight: bold;
-}
-
 .navbar a {
-  color: #fff;
+  color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .navbar a:hover {
   border-bottom: 2px #fff solid;
-  color: #ddd;
+  color: #aaa;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 button {
   padding: 5px 10px;
-  margin: 5px 10px;
+  margin: 5px;
   font-size: large;
-  font-style: italic;
+  font-weight: bold;
   background-color: lightgray;
-  border-width: 0;
-  border-width: 1px;
-  border-radius: 5px 10px;
+  border-width: 1;
+  border-radius: 5px;
 }
-button:hover [
-  color
 
-]
-c
-
+button:hover {
+  color: red;
+  background-color: rgb(235, 235, 94);
+}
